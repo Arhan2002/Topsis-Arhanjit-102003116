@@ -19,7 +19,9 @@ Description: **Evaluation of alternatives based on multiple criteria using TOPSI
 ### In Command Prompt
 
 ```
->> topsis data.csv "1,1,1,1,1" "+,+,-,+,-" resultdata.csv
+>> topsis 102003116-data.csv "1,1,1,1,1" "+,+,-,+,-" resultdata.csv
+##or
+##python 102003116.py 102003116-data.csv "1,1,1,1" "+,+,-,+,-" resultdata.csv
 ```
 
 ## Input file (data.csv)
